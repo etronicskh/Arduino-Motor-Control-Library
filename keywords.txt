@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map For MotorControl
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MotorControl	KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setMotorParameter	KEYWORD2
+setControlParameter	KEYWORD2
+setControlFrequency KEYWORD2
+setInputGain  KEYWORD2
+setInputLimit	KEYWORD2
+setOutputLimit   KEYWORD2
+setEncoderReadQuadrature	KEYWORD2
+setInputDifferentialThreshold	KEYWORD2
+controlOutput	KEYWORD2
+meanSpeed	KEYWORD2
+readEncoder	KEYWORD2
