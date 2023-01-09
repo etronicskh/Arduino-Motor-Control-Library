@@ -63,7 +63,7 @@ MotorControl::MotorControl(uint8_t chA, uint8_t chB, float motorGain, uint32_t c
 }
 
 void MotorControl::setMotorParameter(uint32_t cpr, float gearRatio){
-  _motorGain = (60.0*(float)_controlFreq)/(float)cpr*gearRatio;
+  _motorGain = (60.0*(float)_controlFreq)/((float)cpr*gearRatio);
 }
 
 void MotorControl::setControlParameter(float Kp, float Ki){
